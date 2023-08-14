@@ -1,0 +1,1 @@
+#box1 {	position:absolute;	left:0px;	top:100px;	width:320px;	height:640px;	background-color:#f00;	border:1px solid black;	filter:alpha(opacity=100);	opacity:1;	-moz-opacity:1;}#box2 {	position:absolute;	left:0px;	top:740px;	width:320px;	height:640px;	background-color:#ccf;	border:1px solid black;	filter:alpha(opacity=100);	opacity:1;	-moz-opacity:1;}

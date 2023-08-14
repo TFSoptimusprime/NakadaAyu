@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://www.nishishi.com/aaj/samples/versatile/dummypage.html -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+<script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
+
+	<title>subwindow</title>
+	<link rel="stylesheet" type="text/css" href="./subwindow/forsamples.css">
+
+</head>
+<body>
+
+	<video id="my-video" class="video-js" controls preload="auto" width="560" height="315" loop="1" autoplay="1" muted="1" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+		<source src="./video/Pretender.mp4" type='video/mp4'>
+		<source src="" type='video/webm'>
+		<p class="vjs-no-js">
+				  <a href="http://videojs.com/html5-video-support/" target="_blank"></a>
+		</p>
+	  </video>
+
+
+	<!-- 戻るボタン・リンク領域 -->
+	<div class="setbottom">
+		<p id="returnfunc">
+			<span id="backbutton">
+				<!-- 戻るボタン -->
+				<input type="button" value="このウインドウを閉じる" onclick="self.close();" onkeypress="self.close();">
+			</span>
+			Goodbye!!
+	</p>
+		</div>
+
+
+</body></html>
